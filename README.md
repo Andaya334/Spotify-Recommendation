@@ -1,7 +1,7 @@
 # Spotify-Recommendation
 Machine Learning Project along with EDA and database management
 
-This project produces a full stack project.
+This project produces a music recommendation system.
 
 ### back-end
 
