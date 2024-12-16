@@ -1,0 +1,11 @@
+runtime: python39  # Specifies the Python version
+entrypoint: gunicorn -b :$PORT snowflake_api:app  # Replace 'snowflake_api' with your main Python file name without the .py extension
+
+# Optional settings for free-tier limits
+instance_class: F2  # Selects a small instance type
+
+# Environment variables
+env_variables:
+  SNOWFLAKE_USER: "GAANDAYA"
+  SNOWFLAKE_PASSWORD: "Ashley@500@600!!!"
+  SNOWFLAKE_ACCOUNT: "boszpuz-awb44994"
